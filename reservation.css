@@ -1,0 +1,57 @@
+.reservation{
+    display: flex;
+    background-color: black;
+    color: aliceblue;
+    height: 25cm;
+
+
+}
+
+#opentext_img{
+    width: 22cm;
+    height: 25cm;
+}
+
+
+p{
+
+    margin-top: -80%;
+    /* margin-bottom: -2%; */
+    text-align: center;
+    color: white;
+}
+
+h1{
+    text-align: center;
+    color: orangered;
+}
+
+.reservation-form{
+    display: flex;
+    border: solid 0.9px;
+    color: white;
+    border-radius: 40px;
+    padding: 60px;
+    margin-left: 30px;
+    width: 40%;
+    height: 80%;
+    margin-top: 20px;
+    color: white;
+    margin-right: 8px;
+}
+body{
+    overflow-x: hidden;
+}
+#input{
+
+    width: 20cm;
+    height: 1.3cm;
+    background-color: black;
+    margin-right: 10%;
+    color: white;
+}
+.submission{
+    width: 20cm;
+    height:  1.3cm;
+    margin-right: 10%;
+}

@@ -1,0 +1,45 @@
+.events-container{
+display: flex;
+justify-content: center;
+position: relative;
+
+}
+
+.text{
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+    color: white;
+    font-size: 27px;
+    padding: 12px 20px;
+    justify-content: center;
+    text-align: center;
+}
+.texts{
+    color: aliceblue;
+    margin-left: -31cm;
+    text-align: center;
+    margin-top: -19cm;
+    font-size: 27px;
+}
+.textss{
+    margin-top: -19cm;
+    color: aliceblue;
+    font-size: 27px;
+    margin-left: 2cm;
+    text-align: center;
+}
+
+.events-page img{
+
+    height: 1000px;
+    width:600px ;
+}
+body{
+    overflow-x: hidden;
+}
+p{
+    font-size: 100%;
+}

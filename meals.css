@@ -1,0 +1,32 @@
+
+.kitisirumenu{
+background-image: url(shawl.jpg);
+display: flex;
+background-repeat: no-repeat;
+height: 25cm;
+width: 24cm;
+background-position: center;
+background-size: cover;
+color: aliceblue;
+position: relative;
+
+
+}
+
+.diversityfood{
+    display: flex;
+}
+
+.buffet{
+
+font-size: 30px;
+text-align: center;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+position: absolute;
+
+}
+.meal-plan{
+    display: flex;
+}
