@@ -1,32 +1,165 @@
 
 .kitisirumenu{
-background-image: url(shawl.jpg);
-display: flex;
+background-image: url(images/shawl.jpg);
+/* display: flex; */
 background-repeat: no-repeat;
-height: 25cm;
-width: 24cm;
-background-position: center;
+height: 55vw;
+width: 50vw;
+/* background-position: center; */
 background-size: cover;
 color: aliceblue;
-position: relative;
+
+/* position: relative; */
 
 
 }
-
-.diversityfood{
-    display: flex;
+body{
+    margin: 0%;
 }
 
 .buffet{
 
 font-size: 30px;
 text-align: center;
-top: 50%;
-left: 50%;
-transform: translate(-50%, -50%);
-position: absolute;
+
+justify-content: center;
+padding-top: 150px;
+h3{
+    display: flex;
+    justify-content: center;
+    color: gray;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    color: orangered;
+
 
 }
+img{
+    /* display: flex; */
+    /* justify-content: center; */
+    width: 300px;
+    
+}
+     
+
+}
+
 .meal-plan{
     display: flex;
+    /* overflow: auto; */
+    position: fixed;
+}
+.type-food{
+    display: flex;
+    /* gap: 8cm; */
+    /* justify-content: right; */
+    gap: 2.5cm;
+    padding-left: 50px;
+    a{
+        text-decoration: none;
+        color: coral
+
+    }
+}
+.side-items {
+    display: flex;
+    color:orangered
+
+    
+
+    
+}
+.breakfast-menu {
+    display: flex;
+    
+    
+}
+
+p{
+    color:white
+}
+
+.diversityfood{
+    background-color: black;
+    color: aliceblue;
+    width: 50vw;
+    height: 55vw;
+    overflow: auto;
+    /* position: fixed; */
+    /* display: flex; */
+    /* position: relative; */
+    /* justify-content: center; */
+}
+
+.meal-type{
+  color: white;  
+  text-decoration: none;
+    
+}
+
+h2{
+    color: white;
+}
+
+.breakfast{
+    margin-top: 10%;
+    margin-left: 10%;
+    /* text-align: center;
+    justify-content: center; */
+
+    
+    
+}
+
+.side-items ul{
+    display: flex;
+    gap: 3cm;
+
+}
+
+#ankolelogo{
+    width: 4vw;
+    margin-left: 1cm;
+    margin-bottom: 1cm;
+    margin-top: 1cm;
+}
+.ankole-breakfast{
+    display: flex;
+    gap: 4cm;
+
+}
+
+.food{
+    display: flex;
+    list-style: none;
+    gap: 12cm;
+}
+.mealtype ul{
+    list-style: none;
+}
+
+.foodprice ul{
+    list-style: none;
+}
+
+
+.fresh-juices ul{
+    list-style: none;
+}
+
+.juice-prices ul{
+    list-style: none;
+}
+
+.nutritious-drink{
+    /* display: flex; */
+    gap: 2cm;
+}
+
+.cocktail{
+
+    display: flex;
+    gap: 15cm;
 }

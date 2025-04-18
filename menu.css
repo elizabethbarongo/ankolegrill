@@ -1,0 +1,83 @@
+
+
+/* 
+.kitisuru-branch{
+
+    background-image:url(images/frontview.jpg);
+    background-repeat: no-repeat;
+    text-align: center;
+    word-spacing: 2px;
+    
+    } */
+    
+    .kilimani-branch{
+    
+        background-image:url(images/nightview.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 1000px;
+        text-align: center;
+        width: 1000px;
+    
+    }
+    
+    
+    .branches{
+        display: flex;
+        justify-content: center;
+        
+    }
+    
+    
+    h1{
+        color: white;
+        margin-top:5cm;
+    }
+    
+    h2{
+        color: orangered;
+        position: relative;
+        top:170px;
+        
+    }
+    .logo{
+    position: absolute;
+    overflow: visible;
+    /* margin-top: 6cm; */
+    margin-left: 19cm;
+    padding: 20px;
+    padding-top: 21px;
+    }
+    #img-links{
+        text-decoration: none;
+        position: relative;
+        color: white;
+        bottom: 250px;
+    }
+    
+    .kitisuru-branch{
+        /* background-image:url(images/shawl.jpg); */
+        /* background-position: center; */
+        background-size: cover;
+        width: 1000px;
+        height: 1000px;
+        text-align: center;
+        word-spacing: 2px;
+        background-repeat: no-repeat;
+        /* background-image:url(images/frontview.jpg) ; */
+    background-image: url(images/frontview.jpg);
+    }
+    
+    .branches{
+        display: flex;
+    }
+    
+    .navigationbar{
+        color:aliceblue;
+    }
+    nav ul{
+        color: aliceblue;
+    }
+    body{
+        overflow-x: hidden;
+    }

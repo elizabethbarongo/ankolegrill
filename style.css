@@ -1,5 +1,7 @@
 
-    
+    body{
+        margin: 0;
+    }
    
 
 
@@ -44,24 +46,24 @@ body{
 
 
 .image:nth-child(1){
-    background-image: url(frontview.jpg);
+    background-image: url(images/frontview.jpg);
    animation-delay:0s;
 }
 .image:nth-child(2){
-    background-image: url(cookingingredients.jpg);
+    background-image: url(images/cookingingredients.jpg);
     animation-delay: 4s;
 }
 .image:nth-child(3){
-background-image: url(juicefruits.jpg);
+background-image: url(images/juicefruits.jpg);
 animation-delay: 8s;
 
 }
 .image:nth-child(4){
-background-image: url(mealsample.jpg);
+background-image: url(images/mealsample.jpg);
 animation-delay: 12s;
 }
 .image:nth-child(5){
-background-image: url(nightview.jpg);
+background-image: url(images/nightview.jpg);
 animation-delay: 16s;
 }
 @keyframes anime{
@@ -72,184 +74,37 @@ animation-delay: 16s;
     100%{opacity:100;}
 }
 
-
 nav ul{
-
-display: flex;
-position: fixed;
-gap: 1cm;
-border: 1px solid black;
-list-style: none;
-background-color: black;
-color: whitesmoke;
-width: 58%;
-border-radius: 40px;
-padding: 2%;
-justify-content: center;
-
-
+    display: flex;
+    position: fixed;
+    gap: 1cm;
+    border: 1px solid black;
+    list-style: none;
+    background-color: black;
+    color: aliceblue;
+    width: 48%;
+    border-radius: 40px;
+    padding: 2%;
+    justify-content: center;
+    margin-top: 22cm;
+    margin-left: 10cm;
+    /* text-decoration: none; */
 }
-
 
 nav a{
-    color: white;
-    text-decoration-line: none;
+list-style: none;
+text-decoration: none;
+color: aliceblue;
+margin-top: 5cm;
 }
-
-.navigationbar{
+navigationbar{
     margin-top: -5cm;
     margin-left: 30%;
     padding: 2px;
-    margin-bottom: 30%;
+    margin-bottom:30% ;
     padding: 10%;
+    /* text-decoration: none; */
 }
 
 
 
-/* menu style */
-
-
-
-.kitisuru-branch{
-
-background-image:url(frontview.jpg);
-background-repeat: no-repeat;
-text-align: center;
-word-spacing: 2px;
-
-}
-
-.kilimani-branch{
-
-    background-image:url(nightview.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 1000px;
-    text-align: center;
-    width: 1000px;
-
-}
-
-
-.branches{
-    display: flex;
-    justify-content: center;
-    
-}
-
-
-h1{
-    color: white;
-    margin-top:5cm;
-}
-
-h2{
-    color: orangered;
-    position: relative;
-    top:170px;
-    
-}
-.logo{
-position: absolute;
-overflow: visible;
-/* margin-top: 6cm; */
-margin-left: 19cm;
-padding: 20px;
-padding-top: 21px;
-}
-#img-links{
-    text-decoration: none;
-    position: relative;
-    color: white;
-    bottom: 250px;
-}
-
-.kitisuru-branch{
-    background-image: url(shawl.jpg);
-    /* background-position: center; */
-    background-size: cover;
-    width: 1000px;
-    height: 1000px;
-
-}
-
-.branches{
-    display: flex;
-}
-
-
-/* style menu */
-
-
-
-/* 
-
-@media (max-width:600px) {
-    .body{
-        width: 100%;
-        margin: 0%;
-    }
-    kitisuru-branch{
-
-        background-image:url(frontview.jpg);
-        background-repeat: no-repeat;
-        }
-        
-        .kilimani-branch{
-        
-            background-image:url(nightview.jpg);
-            background-repeat: no-repeat;
-            background-size: cover;
-            height: 900px;
-        }
-        
-        
-        .branches{
-            display: flow-root;
-        }
-        
-        
-        h1{
-            color: white;
-            margin-top:2cm;
-        }
-        
-        h2{
-            color: rgb(113, 245, 25);
-            margin-top:3cm;
-            margin-left: 2cm;
-            
-        }
-        .logo{
-        position: absolute;
-        overflow: visible;
-        margin-top: 6cm;
-        margin-left: 8cm;
-        }
-        .top-section{
-            height: 100vh;
-            width: 100%;
-            background-image: url(frontview.jpg);
-            text-align: justify;
-            overflow: hidden;
-            position: relative;
-            background-position: center;
-            color: white;
-            animation: change 10s infinite ease-in-out;
-            
-            }
-            
-          
-}
-
-
-
-
-
-
-
-
-
-
-
- */
