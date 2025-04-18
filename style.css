@@ -14,26 +14,28 @@
 
 width: 200px;   
 margin-left: 80px;
-margin-top: 100px;
+margin-top: 210px;
 
 }
 
 .image h1{
 
 color: grey;
-margin-bottom: 80px;
+margin-bottom: 200px;
 margin-left: 80px;
 font-size: 100px;
+margin-top: 110px;
 
 
 }
 body{
     overflow-x: hidden;
+    margin: 0;
 }
 .image{
 
     width:99.99vw;
-    height:99.99vh;
+    height:120vh;
     justify-content: center;
     text-align: center;
     background-repeat: no-repeat;
@@ -87,24 +89,143 @@ nav ul{
     padding: 2%;
     justify-content: center;
     margin-top: 22cm;
-    margin-left: 10cm;
-    /* text-decoration: none; */
+    margin-left: -10cm;
+    
 }
 
 nav a{
 list-style: none;
 text-decoration: none;
 color: aliceblue;
-margin-top: 5cm;
+margin-top: 10%;
 }
-navigationbar{
+.navigationbar{
     margin-top: -5cm;
     margin-left: 30%;
     padding: 2px;
     margin-bottom:30% ;
     padding: 10%;
-    /* text-decoration: none; */
+    
 }
 
 
 
+@media only screen and (max-width:600px){
+
+
+    body{
+        margin: 0;
+    }
+   
+
+
+
+ .banner-image{
+    position: absolute;
+}
+
+.image img{
+
+width: 200px;   
+margin-left: 80px;
+margin-top: 210px;
+
+
+}
+
+.image h1{
+
+color: grey;
+margin-bottom: 90px;
+margin-left: 80px;
+font-size: 100px;
+
+
+}
+body{
+    overflow-x: hidden;
+    margin: 0;
+}
+.image{
+
+    width: 140vw;
+    height:140vh;
+    justify-content: center;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position:absolute;
+    animation:anime 20s infinite forwards;
+    opacity: 0;
+    
+}
+
+
+.image:nth-child(1){
+    background-image: url(images/frontview.jpg);
+   animation-delay:0s;
+}
+.image:nth-child(2){
+    background-image: url(images/cookingingredients.jpg);
+    animation-delay: 4s;
+}
+.image:nth-child(3){
+background-image: url(images/juicefruits.jpg);
+animation-delay: 8s;
+
+}
+.image:nth-child(4){
+background-image: url(images/mealsample.jpg);
+animation-delay: 12s;
+}
+.image:nth-child(5){
+background-image: url(images/nightview.jpg);
+animation-delay: 16s;
+}
+@keyframes anime{
+    0%{opacity:0;}
+    10%{opacity:1;}
+    30%{opacity:1;}
+    40%{opacity:100;}
+    100%{opacity:100;}
+}
+
+nav ul{
+    display: flex;
+    position: absolute;
+    gap: 0.5cm;
+    border: 1px solid black;
+    list-style: none;
+    background-color: black;
+    color: aliceblue;
+    width: 90%;
+    border-radius: 40px;
+    padding: 3%;
+    justify-content: center;
+    margin-top: 25.4cm;
+    margin-left: -84%;
+    
+}
+
+nav a{
+list-style: none;
+text-decoration: none;
+color: aliceblue;
+margin-top: 10%;
+}
+.navigationbar{
+    margin-top: -5cm;
+    margin-left: 75%;
+    padding: 2px;
+    margin-bottom:70% ;
+    padding: 10%;
+    
+}
+
+
+
+
+
+
+
+}

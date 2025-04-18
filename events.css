@@ -34,13 +34,47 @@ position:absolute;
 
 .events-page img{
 
-    height: 1000px;
-    width:700px ;
+    height: 130vh;
+    width:620px ;
 }
 body{
     /* overflow-x: hidden; */
     margin: 0;
+    overflow-y: hidden;
 }
 p{
     font-size: 100%;
+}
+
+
+nav ul{
+    display: flex;
+    position: fixed;
+    gap: 1cm;
+    border: 1px solid black;
+    list-style: none;
+    background-color: black;
+    color: aliceblue;
+    width: 48%;
+    border-radius: 40px;
+    padding: 2%;
+    justify-content: center;
+    margin-top: 21cm;
+    margin-left: -9cm;
+    
+}
+
+nav a{
+list-style: none;
+text-decoration: none;
+color: aliceblue;
+margin-top: 10%;
+}
+.navigationbar{
+    margin-top: -5cm;
+    margin-left: 30%;
+    padding: 2px;
+    margin-bottom:30% ;
+    padding: 10%;
+    
 }

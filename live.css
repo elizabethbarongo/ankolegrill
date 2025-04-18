@@ -1,17 +1,26 @@
-body{
+
+
+
+
+
+.body{
     margin: 0;
 }
 #ankolelogo{
 
-    width: 5cm;
+    width: 6cm;
+    margin-bottom: 20%;
+    margin-top: 12%;
+
 }
 
 h1{
     color: orangered;
+    font-size: 60px;
 }
 
 .live-events{
-    background-image: url(images/frontview.jpg);
+    background-image:url(images/african.jpg);
     display: flex;
     justify-content: center;
     height: 100vh;
@@ -19,7 +28,8 @@ h1{
 }
 
 p{
-    color: aliceblue;
+    color: orangered
+    
 }
 
 h3{
@@ -28,4 +38,325 @@ h3{
 
 h2{
     color: aliceblue;
+    font-size: 40px;
+}
+
+.fadhille{
+display: flex;
+gap: 0.9cm;
+margin-left: 20%;
+
+}
+
+.koko{
+    display: flex;
+    gap: 0.9cm;
+    margin-left: 20%;
+}
+
+.shitaqua{
+    display: flex;
+    gap: 0.9cm;
+    margin-left: 20%;
+}
+
+#fadhillepage{
+    /* tcolor: yellow; */
+}
+
+.fadhi-artist{
+    background-image:url("images/fadhilee.jpg") ;
+    background-size: cover;
+    height: 200vh;
+
+    position: relative;
+
+}
+
+.koko-artist{
+
+    background-image:url("images/koko.jpg");
+    background-size: cover;
+    height: 200vh;
+
+    position: relative;
+
+}
+
+.shitaqua-artist{
+
+
+    background-image:url("images/shitaqua.jpg");
+    background-size: cover;
+    height: 200vh;
+
+    position: relative;
+
+}
+
+.fadhille img{
+    width: 280px;
+    gap: 1cm;
+}
+
+
+.koko img {
+    width: 280px;
+}
+
+.shitaqua img {
+    width: 280px;
+}
+
+body{
+    margin: 0;
+    overflow-y: hidden;
+}
+
+#artist-fadhile{
+    text-decoration: none;
+    color:black;
+    font-size: 24.5px;
+    margin-top: 8%;
+    margin-left: -19.4%;
+    
+}
+
+#artist-koko{
+    text-decoration: none;
+    color:black;
+    font-size: 24.5px;
+    margin-top: 8%;
+    margin-left: -19.4%;
+}
+
+#artist-shitaq{
+    text-decoration: none;
+    color:black;
+    font-size: 24.5px;
+    margin-top: 8%;
+    margin-left: -19.4%;
+
+}
+
+
+
+nav ul{
+    display: flex;
+    position: fixed;
+    gap: 0.5cm;
+    border: 1px solid black;
+    list-style: none;
+    background-color:black;
+    color: aliceblue;
+    width: 32%;
+    border-radius: 40px;
+    padding: 2%;
+    justify-content: center;
+    margin-top: 23%;
+    margin-left: -47%;
+   
+    
+}
+
+nav a{
+list-style: none;
+text-decoration: none;
+color: aliceblue;
+margin-top: 5cm;
+}
+.navigationbar{
+    margin-top: -20cm;
+    margin-left: 40%;
+    padding: 2px;
+    margin-bottom:20% ;
+    padding: 10%;
+   
+}
+
+
+@media only screen and (max-width:600px){
+
+
+
+    .body{
+        margin: 0;
+    }
+    #ankolelogo{
+    
+        width: 6cm;
+        margin-bottom: 20%;
+        margin-top: 12%;
+    
+    }
+    
+    h1{
+        color: orangered;
+        font-size: 60px;
+    }
+    
+    .live-events{
+        background-image:url(images/african.jpg);
+        display: block;
+        justify-content: center;
+        height: 230vh;
+        width: 210vw;
+        background-size: cover;
+        position: absolute;
+    }
+    
+    p{
+        color: orangered
+        
+    }
+    
+    h3{
+        color: aliceblue;
+    }
+    
+    h2{
+        color: aliceblue;
+        font-size: 40px;
+    }
+    
+    .fadhille{
+    display: flex;
+    gap: 0.9cm;
+    margin-left: 3%;
+    
+    }
+    
+    .koko{
+        display: flex;
+        gap: 0.9cm;
+        margin-left: 3%;
+    }
+    
+    .shitaqua{
+        display: flex;
+        gap: 0.9cm;
+        margin-left: 3%;
+    }
+    
+    
+    .fadhi-artist{
+        background-image:url("images/fadhilee.jpg") ;
+        background-size: cover;
+        height: 200vh;
+    
+        position: relative;
+    
+    }
+    
+    .koko-artist{
+    
+        background-image:url("images/koko.jpg");
+        background-size: cover;
+        height: 200vh;
+    
+        position: relative;
+    
+    }
+    
+    .shitaqua-artist{
+    
+    
+        background-image:url("images/shitaqua.jpg");
+        background-size: cover;
+        height: 200vh;
+    
+        position: relative;
+    
+    }
+    
+    .fadhille img{
+        width: 280px;
+        gap: 1cm;
+    }
+    
+    
+    .koko img {
+        width: 280px;
+    }
+    
+    .shitaqua img {
+        width: 280px;
+    }
+    
+    body{
+        margin: 0;
+        overflow-y: hidden;
+    }
+    
+    #artist-fadhile{
+        text-decoration: none;
+        color:black;
+        font-size: 24.5px;
+        margin-top: 8%;
+        margin-left: -19.4%;
+        
+    }
+    
+    #artist-koko{
+        text-decoration: none;
+        color:black;
+        font-size: 24.5px;
+        margin-top: 8%;
+        margin-left: -19.4%;
+    }
+    
+    #artist-shitaq{
+        text-decoration: none;
+        color:black;
+        font-size: 24.5px;
+        margin-top: 8%;
+        margin-left: -19.4%;
+    
+    }
+    
+    
+    
+    nav ul{
+        display: flex;
+        position: fixed;
+        gap: 1cm;
+        border: 1px solid black;
+        list-style: none;
+        background-color: black;
+        color: aliceblue;
+        width: 48%;
+        border-radius: 40px;
+        padding: 2%;
+        justify-content: center;
+        margin-top: 22cm;
+        margin-left: 10cm;
+        
+    }
+    
+    nav a{
+    list-style: none;
+    text-decoration: none;
+    color: aliceblue;
+    margin-top: 5cm;
+    }
+    .navigationbar{
+        margin-top: -5cm;
+        margin-left: 30%;
+        padding: 2px;
+        margin-bottom:30% ;
+        padding: 10%;
+       
+    }
+    
+
+
+
+
+
+
+
+
+
+
+
 }
