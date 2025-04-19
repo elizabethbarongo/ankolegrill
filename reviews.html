@@ -1,111 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>REVIEWS</title>
-    <link rel="shortcut icon"
-        href="https://cdn.prod.website-files.com/65aa1f78e2380ad0548de50d/65c2f846c4a26655bd054c9a_32.png"
-        type="image/x-icon" />
-    <link rel="apple-touch-icon"
-        href="https://cdn.prod.website-files.com/65aa1f78e2380ad0548de50d/65c2f8766b8f42a404851ef0_256.png" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
-    <link rel="stylesheet" href="reviews.css">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Reviews</title>
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+        <link rel="stylesheet" href="reviews.css">
 
-</head>
+    </head>
 
-<body>
-    <div class="reviewpage">
-        <div class="homeheader">
-            <div class="icons">
-                <a href="https://www.instagram.com/ankolegrill/?hl=en" target="_blank"><i
-                        class="fa-brands fa-instagram"></i></a>
+    <body>
+        <div class="reviewpage">
+            <div class="homeheader">
+                <div class="logo">
+                    <a aria-current="page"
+                        class="header-logo w-inline-block w--current">
+                        <img
+                            src="https://cdn.prod.website-files.com/65aa1f78e2380ad0548de50d/65c0b0524cdc940f7455af22_logo.svg"
+                            loading="eager" width="200">
 
-                <a href="https://www.facebook.com/ankolegrill" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                    </a>
 
+                </div>
+                <div class="reviewdetails">
+                    <div class="review" id="rev1">
+                        <h1>REVIEW</h1>
+                        <i class="fa-solid fa-quote-left" id="prev"></i>
+                        <p>Great food and atmosphere. The staff are <br>
+                            friendly and hardworking. We stayed at this<br>
+                            location for a few hours, and made our way to the
+                            bonfire.The drinks are good too<br>
+                            be bback. A++</p>
+
+                        <p>Erik Anderson<br>
+                            KITISURU</p>
+                        <i class="fa-solid fa-quote-right" id="next"></i>
+                    </div>
+                    <div class="review" id="rev2">
+                        <h1>REVIEW</h1>
+                        <i class="fa-solid fa-quote-left" id="prev"></i>
+                        <p>Such a fantastic restaurant, I plan on being a
+                            regularhere. The food is amazing the atmosphere is
+                            so
+                            nice and <br>
+                            the service is exceptional. I pray you are able to
+                            visit them at least once so you canunderstand
+                            what I'm saying.<br>
+                            10/10.Recommended dishes: Steakmust go
+                            visitthem!</p>
+                        <p>Paul Kamau<br>
+                            KITISURU</p>
+                        <i class="fa-solid fa-quote-right" id="next"></i>
+                    </div>
+                    <div class="review" id="rev3">
+                        <h1>REVIEW</h1>
+                        <i class="fa-solid fa-quote-left" id="prev"></i>
+                        <p> Awesome food and services. The mbuzi
+                            goat with plantains and green is a must<br>
+                            Bread pudding is best in town.Mutura also very good
+                            and fresh</p>
+                        <p> Nuru Mugambi <br>
+                            KILIMANI</p>
+                        <i class="fa-solid fa-quote-right" id="next"></i>
+
+                    </div>
+                    <div>
+                        <button id="prev-button"><i
+                                class="fa-solid fa-square-chevron-left"></i></button>
+                        <button id="next-button"><i
+                                class="fa-solid fa-square-chevron-right"></i></button>
+                    </div>
+                    <script src="review.js"></script>
+
+                </div>
+            </div>
+            <div class="navigationbar">
+                <nav>
+                    <ul>
+                        <li><i class="fa fa-bars"></i></li>
+                        <i class="fa-solid fa-clock-two-thirty"></i>
+                        <li> <a>Home</a></li>
+                        <li><a href="menu.html">Menu</a></li>
+
+                        <li> <a href="reviews.html">Reviews</a></li>
+                        <li> <a href="events.html">Events</a></li>
+                        <li><a href="live.html">Live</a></li>
+                        <li> <a href="contact.html">Contacts</a></li>
+                        <li> <a
+                                href="reservation.html">Reservations</a></li>
+                    </ul>
+                </nav>
 
             </div>
-            <div class="logo">
-                <a aria-current="page" class="header-logo w-inline-block w--current">
-                    <img src="https://cdn.prod.website-files.com/65aa1f78e2380ad0548de50d/65c0b0524cdc940f7455af22_logo.svg"
-                        loading="eager" width="200">
-
-                </a>
-
-            </div>
-        <div class="reviewdetails">
-            <div class="review" id="rev1">
-                <h1>REVIEW</h1>
-                <i class="fa-solid fa-quote-left" id="prev"></i>
-                <p>Great food and atmosphere. The staff are <br>
-                    friendly and hardworking. We  stayed at this<br>
-                    location for a few hours, and made our way to the bonfire.The drinks are good too<br>
-                    be bback. A++</p>
-
-                <p>Erik Anderson<br>
-                    KITISURU</p>
-                <i class="fa-solid fa-quote-right" id="next"></i>
-            </div>
-            <div class="review" id="rev2">
-                <h1>REVIEW</h1>
-                <i class="fa-solid fa-quote-left" id="prev"></i>
-                <p>Such a fantastic restaurant, I plan on being a regularhere. The food is amazing the atmosphere is so
-                    nice and <br>
-                    the service is exceptional. I pray you are able to visit them at least once so you canunderstand
-                    what I'm saying.<br>
-                    10/10.Recommended dishes: Steakmust go visitthem!</p>
-                <p>Paul Kamau<br>
-                    KITISURU</p>
-                <i class="fa-solid fa-quote-right" id="next"></i>
-            </div>
-            <div class="review" id="rev3">
-                <h1>REVIEW</h1>
-                <i class="fa-solid fa-quote-left" id="prev"></i>
-                <p> Awesome food and services. The mbuzi
-                    goat with plantains and green is a must<br>
-                    Bread pudding is best in town.Mutura also very good and fresh</p>
-                <p> Nuru Mugambi <br>
-                    KILIMANI</p>
-                <i class="fa-solid fa-quote-right" id="next"></i>
-
-            </div>
-            <div>
-                <button id="prev-button"><i class="fa-solid fa-square-chevron-left"></i></button>
-                <button id="next-button"><i class="fa-solid fa-square-chevron-right"></i></button>
-            </div>
-            <script src="review.js"></script>
-
 
         </div>
-    </div>
-
-    <div class="navigationbar">
-        <nav>
-            <ul>
-           <li><i class="fa fa-bars"></i></li> 
-           <i class="fa-solid fa-clock-two-thirty"></i>
-           <li> <a>Home</a></li> 
-           <li><a href="menu.html">Menu</a></li> 
-
-           <li> <a href="reviews.html">Reviews</a></li> 
-           <li> <a href="events.html">Events</a></li> 
-           <li><a href="live.html">Live</a></li> 
-           <li> <a href="contact.html">Contacts</a></li> 
-           <li> <a href="reservation.html">Reservations</a></li> 
-        </ul>
-    </nav>
-
-    </div>
-    
-
-
-    
-
-
-
-
-
-</body>
+    </body>
 
 </html>
