@@ -35,7 +35,7 @@ body{
 .image{
 
     width:99.99vw;
-    height:120vh;
+    height:140vh;
     justify-content: center;
     text-align: center;
     background-repeat: no-repeat;
@@ -131,6 +131,7 @@ margin-left: 80px;
 margin-top: 210px;
 
 
+
 }
 
 .image h1{
@@ -145,11 +146,12 @@ font-size: 100px;
 body{
     overflow-x: hidden;
     margin: 0;
+    overflow-y: hidden;
 }
 .image{
 
     width: 140vw;
-    height:140vh;
+    height:180vh;
     justify-content: center;
     text-align: center;
     background-repeat: no-repeat;
@@ -193,7 +195,7 @@ animation-delay: 16s;
 nav ul{
     display: flex;
     position: absolute;
-    gap: 0.5cm;
+    gap: 0.3cm;
     border: 1px solid black;
     list-style: none;
     background-color: black;
@@ -203,8 +205,11 @@ nav ul{
     padding: 3%;
     justify-content: center;
     margin-top: 25.4cm;
-    margin-left: -84%;
-    
+    margin-left: -77%;
+    padding-right: 20%;
+    margin-right: 90px;
+    padding-left: 20%;
+    /* padding-left: -35%; */
 }
 
 nav a{
