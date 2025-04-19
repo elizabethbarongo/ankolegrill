@@ -21,13 +21,13 @@
     
     h1{
         color: white;
-        margin-top:5cm;
+        margin-top:40px;
     }
     
     h2{
         color: orangered;
         position: relative;
-        top:170px;
+        margin-top:350px;
         
     }
     .logo{
@@ -42,7 +42,7 @@
         text-decoration: none;
         position: relative;
         color: white;
-        bottom: 250px;
+        bottom: -60px;
     }
     
     .kitisuru-branch{
@@ -97,7 +97,7 @@
         padding: 10%;
         
     }
-    
+
     
     
     
