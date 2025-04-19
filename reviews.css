@@ -34,11 +34,11 @@
     }
     
   }
-  #prev{
+  #previous{
     padding-left: 350px;
     color: orangered;
   }
-  #next{
+  #forward{
    display: flex;
    justify-content: right;
     color: orangered;
@@ -48,16 +48,10 @@
     display: flex;
     justify-content: center;
 }
-.icons{
-    display: flex;
-     justify-content: flex-end;
-    color: white;
-    gap:10px;
-}
 
 .nav-bottom{
     width: 50%;
-    position: fixed;
+    position: absolute;
     bottom: 0;
     background-color: black;
     overflow: hidden;
