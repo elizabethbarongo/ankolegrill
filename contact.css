@@ -1,7 +1,7 @@
 .contact-section{
 
     background-image: url(images/contacts.jpg);
-    width: cm;
+   
     height: 100vh;
     display: flex;
     gap: 1cm;
@@ -21,7 +21,7 @@ body{
 }
 
 .Kitisuru{
-    /* border:1px solid white; */
+  
     border: solid 1px white;
     width:10cm ;
     height: 9cm;
@@ -103,3 +103,120 @@ margin-top: 10%;
 
 
 
+@media only screen and (max-width:600px){
+
+
+    .contact-section{
+
+        background-image: url(images/contacts.jpg);
+        height: 100vh;
+        display: block;
+        gap: 1cm;
+        justify-content: center;
+        font-size: 20px;
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
+    
+    p{
+        color: white;
+        font-size: 15px;
+    }
+    
+    body{
+        overflow-x: hidden;
+    }
+    
+    .Kitisuru{
+      
+        border: solid 1px white;
+        width:6cm ;
+        height: 7.5cm;
+        padding-left: 1cm;
+        font-size: 20px;
+        font-weight: 30;
+        margin-top: 1rem;
+        margin-bottom: 100px;
+        margin-left: 10%;
+        margin-right: -60%;
+        gap: 0.3cm;
+        
+        
+    
+    
+    }
+    
+    h1{
+        color:white;
+    }
+    
+    
+    .Kilimani{
+       
+        border: solid 1px white;
+        width:6cm ;
+        height: 9.9cm;
+        padding-left: 1cm;
+        font-size: 20px;
+        font-weight: 30;
+        margin-top: 10rem;
+        margin-bottom: 100px;
+        margin-left: 10%;
+        margin-right: -60%;
+        gap: 0.3cm;
+        
+    
+    
+    }
+    #text-color{
+        /* color: black; */
+        text-decoration: none;
+        color: white;
+    }
+    body{
+        margin: 0;
+    }
+    
+    
+    nav ul{
+        display: flex;
+        /* position: fixed; */
+        gap: 1cm;
+        border: 1px solid yellow;
+        list-style: none;
+        background-color:yellowgreen;
+        color: aliceblue;
+        width: 48%;
+        border-radius: 40px;
+        padding: 2%;
+        justify-content: center;
+        margin-top: 22cm;
+        margin-left: 20%;
+        margin-right: -40%;
+        
+    }
+    
+    nav a{
+    list-style: none;
+    text-decoration: none;
+    color: aliceblue;
+    margin-top: 10%;
+    }
+    .navigationbar{
+        margin-top: -5cm;
+        margin-left: -5%;
+        padding: 2px;
+        margin-bottom:30% ;
+        padding: 10%;
+        
+    }
+    
+    
+    
+    
+   
+
+
+
+
+}
