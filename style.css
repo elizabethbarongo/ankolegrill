@@ -145,11 +145,6 @@ font-size: 100px;
 
 
 }
-body{
-    overflow-x: hidden;
-    margin: 0;
-    overflow-y: hidden;
-}
 .image{
 
     width: 140vw;
