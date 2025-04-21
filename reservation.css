@@ -16,7 +16,6 @@
 p{
 
     margin-top: -80%;
-    /* margin-bottom: -2%; */
     text-align: center;
     color: white;
 }
@@ -111,7 +110,7 @@ margin-top: 10%;
     }
     
     #opentext_img{
-        width: 35%;
+        width: 40%;
         height: 100vh;
     }
     
@@ -121,45 +120,49 @@ margin-top: 10%;
         margin-top: -80%;
         text-align: center;
         color: white;
+       margin-right: 60%;
     }
     
     h1{
         text-align: center;
         color: orangered;
+        margin-right: 60%;
     }
     
     .reservation-form{
         display: flex;
-        border: solid 0.9px;
+        border: solid 1px;
         color: white;
         border-radius: 40px;
-        padding: 19px;
-        margin-left: 0px;
+        padding: 10px;
+        margin-left: 50%;
         width: 5%;
-        height: 8%;
-        margin-top: -10px;
+        height: 66%;
         color: white;
         margin-right: 0px;
         position: absolute;
-        margin-top: 5cm;
-        
+       margin-top: -160%;
+        padding-right: 40%;
     }
     body{
         overflow-x: hidden;
     }
     #input{
     
-        width: 8cm;
+        width: 4cm;
         height: 1.3cm;
         background-color: black;
-        margin-right: 10%;
+        margin-right: 100%;
         color: white;
+      
         
     }
     .submission{
-        width: 7cm;
+        width: 6cm;
         height:  1.3cm;
-        margin-right: 10%;
+        margin-right: 25%;
+        margin-left: -20%;
+        border-radius: 10px;
     }
     
     body{
