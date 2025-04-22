@@ -205,9 +205,6 @@ margin-top: 10%;
         
         
         }
-        body{
-            margin: 0%;
-        }
         
         .buffet{
         
@@ -246,9 +243,10 @@ margin-top: 10%;
         }
         .type-food{
             display: flex;
+           
         
            
-            gap: 2.5cm;
+            gap: 0.3cm;
             padding-left: 50px;
             a{
                 text-decoration: none;
@@ -257,9 +255,12 @@ margin-top: 10%;
             }
         }
         .side-items {
-            display: flex;
-            color:orangered
-        
+            display: block;
+            color:orangered;
+            gap: 0.4cm;
+            margin-left: -15%;
+            gap: 5px;
+            
             
         
             
@@ -278,7 +279,7 @@ margin-top: 10%;
             background-color: black;
             color: aliceblue;
             width: 100vw;
-            height: 55vw;
+            height: 100vh;
             overflow: auto;
             
         }
@@ -305,6 +306,7 @@ margin-top: 10%;
         .side-items ul{
             display: flex;
             gap: 3cm;
+          
         
         }
         
@@ -316,7 +318,8 @@ margin-top: 10%;
         }
         .ankole-breakfast{
             display: flex;
-            gap: 4cm;
+            gap: 0.1cm;
+            margin-left: -10%;
         
         }
         
@@ -388,6 +391,13 @@ margin-top: 10%;
         
 
 
-
+      ul{
+        text-decoration: none;
+      }
+      body{
+        overflow-x: hidden;
+        overflow-y: hidden;
+        margin: 0;
+      }
 
 }
