@@ -35,7 +35,7 @@ body{
 .image{
 
     width:99.99vw;
-    height:140vh;
+    height:100vh;
     justify-content: center;
     text-align: center;
     background-repeat: no-repeat;
@@ -75,166 +75,252 @@ animation-delay: 16s;
     40%{opacity:100;}
     100%{opacity:100;}
 }
+ 
 
-nav ul{
-    display: flex;
-    position: fixed;
-    gap: 1cm;
-    border: 1px solid black;
-    list-style: none;
+  .navigationbar{
+    position: absolute;
+     top: 85%;
+     left: 27%;
+     padding: 0.7%;
     background-color: black;
-    color: aliceblue;
-    width: 48%;
-    border-radius: 40px;
-    padding: 2%;
-    justify-content: center;
-    margin-top: 22cm;
-    margin-left: -10cm;
+    margin-left: 0px;
+    padding-left: 0px;
+    width: 37%;
+    border-radius: 3em;
+    font-size: 1.2em;
+    overflow: visible;
+   
     
-}
 
-nav a{
-list-style: none;
-text-decoration: none;
-color: aliceblue;
-margin-top: 10%;
-}
-.navigationbar{
-    margin-top: -5cm;
-    margin-left: 30%;
-    padding: 2px;
-    margin-bottom:30% ;
-    padding: 10%;
+  
+  }
+  .navbar{
+    list-style: none;
+    display: flex;
+    gap: 3%;
+    color:#fff;
+  }
+  
+  .navigationbar a{
+    text-decoration: none;
+    color: white;
+  }
+  .navigationbar a:hover{
+    color: orange;
+  }
+
+  .popup{
+    display: none;
+    position: absolute;
+    bottom: 90px;
+    top: auto;
+    left: 20px;
+    background-color: white;
+    color: black;
+    padding: 10px;
+    border-radius: 10px;
+    width: 250px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    z-index: 999;
+    font-size: 0.9em;
+  }
+  
+  .clockIcon:hover .popup{
+    display: block;
+  }
+
+  .food{
+    position: relative;
+  }
+  .menu{
+    position: relative;
+    display: inline-block;
+    background-color: transparent;
+  }
+  .menuIcon{
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+    padding: 10px;
+  }
+   .clickMenu{
+    display: none;
+    position: absolute;
+    bottom: 100%;
+    left: -20px;
+    background-color: black;
+    padding: 15px;
+    border-radius: 10px;
+    z-index: 1000;
+    width: 250px;
+   }
+
+   .menu:hover .clickMenu{
+    display: block;
+   }
+
+   .clickMenu a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 10px 0px;
+
+   }
+
+   .clickMenu hr{
+    border: 0;
+    border-top: 1px solid #555;
+    margin: 0;
+   }
+   #reservationsLink{
+    background-color: grey;
+    padding: 5%;
+    border-radius: 1em;
+    text-align: center;
+    width: 100%; 
+    margin-top: -5%;      
+
+  }
+
+
+#whatssapIcon{
+    position: absolute;
+    font-size: 30px;
+    top: 85%;
+    left: 93%;
     
-}
+    background-color: black;
+    border: white 1px solid;
+    border-radius: 2em;
+    padding: 1%;
+    }
+  
+ 
+.socialIcons{
+    position:absolute;
+    left: 93%;
+    bottom: 95%;
+    display: flex;
+    gap:50%;
+  
+    }
+  
+
+
+  #instagramIcon{
+    font-size: 20px;
+    filter: brightness(60%);
+    
+  
+  }
+
+  .instagram{
+    border: solid 1px white;
+    width: 100%;
+    padding: 20%;
+    border-radius: 3em;
+    filter: brightness(60%);
+  }
+  
+  .facebook{
+    border: solid 1px white;
+    width: 100%;
+    padding: 20%;
+    border-radius: 2em;
+    filter: brightness(60%);
+   justify-content: center;
+  }
+
+
+
 
 
 
 @media only screen and (max-width:600px){
 
+  .image h1{
 
-    body{
-        margin: 0;
-        overflow-x: hidden;
-        overflow-y: hidden;
+ 
+    font-size: 30px;
     }
-   
 
-
-
- .banner-image{
-    position: absolute;
-    width: 100px;
-}
-
-.image img{
-
-width: 150px;   
-margin-left: 100px;
-margin-top: 280px;
-margin-right: 70px;
-
-
-
-}
-
-.image h1{
-
-color: grey;
-margin-bottom: 90px;
-margin-left: 80px;
-font-size: 40px;
-
-
-}
-.image{
-
-    width: 440.3px;
-    height:180vh;
-    justify-content: center;
-    text-align: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position:absolute;
-    animation:anime 20s infinite forwards;
-    opacity: 0;
+    .navigationbar{
     
-}
+       top: 85%;
+       left: -2%;
+       padding: 0.5%;
+      width: 95%;
+      font-size: 0.7em;
+    
+    }
 
 
-.image:nth-child(1){
-    background-image: url(images/frontview.jpg);
-   animation-delay:0s;
+
+  .navbar{
+    gap: 1%;
   
-}
-.image:nth-child(2){
-    background-image: url(images/cookingingredients.jpg);
-    animation-delay: 4s;
-   
-}
-.image:nth-child(3){
-background-image: url(images/juicefruits.jpg);
-animation-delay: 8s;
+  }
+    
+
+#whatssapIcon{
+  
+  font-size: 10px;
+  
+  left: 93%;
+  
+  }
 
 
-}
-.image:nth-child(4){
-background-image: url(images/mealsample.jpg);
-animation-delay: 12s;
+  #instagramIcon{
+    font-size: 10px;
+    margin-left: -25px;
 
-}
-.image:nth-child(5){
-background-image: url(images/nightview.jpg);
-animation-delay: 16s;
+  }
 
-}
-@keyframes anime{
-    0%{opacity:0;}
-    10%{opacity:1;}
-    30%{opacity:1;}
-    40%{opacity:100;}
-    100%{opacity:100;}
-}
+  .facebook{
+    border-radius: 2em;
+   margin-left: -15px;
+  }
 
-nav ul{
-    display: flex;
-    position: absolute;
-    gap: 0.1cm;
-    border: 1px solid black;
-    list-style: none;
-    background-color: black;
-    color: aliceblue;
-    width: 90%;
-    border-radius: 40px;
-    padding: 3%;
-    justify-content: center;
-    margin-top: 25.4cm;
-    margin-left: -85%;
-    padding-right: -5%;
-    margin-right: 90px;
-    padding-left: 3%;
+
   
 }
 
-nav a{
-list-style: none;
-text-decoration: none;
-color: aliceblue;
-margin-top: 10%;
-}
-.navigationbar{
-    margin-top: -5cm;
-    margin-left: 75%;
-    padding: 2px;
-    margin-bottom:70% ;
-    padding: 10%;
+
+
+@media screen and (max-width: 900px) and (min-width: 600px){
+
+
+
+  .navigationbar{
     
+    top: 85%;
+    left: 15%;
+    padding: 0.5%;
+   width: 70%;
+   font-size: 0.7em;
+ 
+ }
+
+ .instagram{
+  border: solid 1px white;
+  width: 100%;
+  padding: 20%;
+  border-radius: 3em;
+  filter: brightness(60%);
+  margin-left: -25px;
 }
 
 
+.navbar{
+  gap: 1%;
 
+}
+  
 
 
 
 
 }
+  
+

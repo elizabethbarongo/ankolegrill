@@ -142,7 +142,7 @@ body{
 }
 
 
-
+/* 
 nav ul{
     display: flex;
     position: fixed;
@@ -174,209 +174,332 @@ margin-top: 5cm;
     margin-bottom:20% ;
     padding: 10%;
    
-}
+} */
+
+
+
+.navigationbar{
+    position: absolute;
+     top: 85%;
+     left: 27%;
+     padding: 0.7%;
+    background-color: black;
+    margin-left: 0px;
+    padding-left: 0px;
+    width: 37%;
+    border-radius: 3em;
+    font-size: 1.2em;
+    box-shadow: 0 4px 8px 0 rgba(31, 30, 30, 0.2), 0 6px 20px 0 rgba(36, 35, 35, 0.19);
+    overflow: visible;
+   
+    
+
+  
+  }
+  .navbar{
+    list-style: none;
+    display: flex;
+    gap: 3%;
+    color:#fff;
+  }
+  
+  .navigationbar a{
+    text-decoration: none;
+    color: white;
+  }
+  .navigationbar a:hover{
+    color: orange;
+  }
+
+  .popup{
+    display: none;
+    position: absolute;
+    bottom: 90px;
+    top: auto;
+    left: 20px;
+    background-color: white;
+    color: black;
+    padding: 10px;
+    border-radius: 10px;
+    width: 250px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    z-index: 999;
+    font-size: 0.9em;
+  }
+  
+  .clockIcon:hover .popup{
+    display: block;
+  }
+
+  .food{
+    position: relative;
+  }
+  .menu{
+    position: relative;
+    display: inline-block;
+    background-color: transparent;
+  }
+  .menuIcon{
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+    padding: 10px;
+  }
+   .clickMenu{
+    display: none;
+    position: absolute;
+    bottom: 100%;
+    left: -20px;
+    background-color: black;
+    padding: 15px;
+    border-radius: 10px;
+    z-index: 1000;
+    width: 250px;
+   }
+
+   .menu:hover .clickMenu{
+    display: block;
+   }
+
+   .clickMenu a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 10px 0px;
+
+   }
+
+   .clickMenu hr{
+    border: 0;
+    border-top: 1px solid #555;
+    margin: 0;
+   }
+   #reservationsLink{
+    background-color: grey;
+    padding: 5%;
+    border-radius: 1em;
+    text-align: center;
+    width: 100%; 
+    margin-top: -5%;      
+
+  }
+
+
+#whatssapIcon{
+    position: absolute;
+    font-size: 30px;
+    top: 85%;
+    left: 93%;
+    
+    background-color: black;
+    border: white 1px solid;
+    border-radius: 2em;
+    padding: 1%;
+    }
+  
+ 
+.socialIcons{
+    position:absolute;
+    left: 93%;
+    bottom: 95%;
+    display: flex;
+    gap:50%;
+  
+    }
+  
+
+
+  #instagramIcon{
+    font-size: 20px;
+    filter: brightness(60%);
+    
+  
+  }
+
+  .instagram{
+    border: solid 1px white;
+    width: 100%;
+    padding: 20%;
+    border-radius: 3em;
+    filter: brightness(60%);
+  }
+  
+  .facebook{
+    border: solid 1px white;
+    width: 100%;
+    padding: 20%;
+    border-radius: 2em;
+    filter: brightness(60%);
+   justify-content: center;
+  }
+
 
 
 @media only screen and (max-width:600px){
 
 
 
-    .body{
-        margin: 0;
-    }
-    #ankolelogo{
-    
-        width: 2cm;
-        margin-bottom: 10%;
-        margin-top: 45%;
-        margin-left: 20%;
-        height: 2cm;
-      
-    
-    }
-    
-    h1{
-        color: orangered;
-        font-size: 40px;
-        margin-top: -14%;
-        margin-left: 15%;
-    }
-    
-    .live-events{
-        background-image:url(images/african.jpg);
-        display: block;
-        justify-content: center;
-        height: 160vh;
-        width: 105vw;
-        background-size: cover;
-        position: absolute;
-    }
-    
-    p{
-        color: orangered
-        
-        
-    }
-    
-    h3{
-        color: aliceblue;
-    }
-    
-    h2{
-        color: black;
-        font-size: 15px;
-        margin-top: -7%;
-    
-        margin-left: 15%;
-    }
-    
-    .fadhille{
-    display: flex;
-    gap: 0.1cm;
-    margin-left: 3%;
-    
-    }
-    
-    .koko{
-        display: flex;
-        gap: 0.1cm;
-        margin-left: 3%;
-    }
-    
-    .shitaqua{
-        display: flex;
-        gap: 0.1cm;
-        margin-left: 3%;
-    }
-    
-    
-    .fadhi-artist{
-        background-image:url("images/fadhilee.jpg") ;
-        background-size: cover;
-        height: 200vh;
-    
-        position: relative;
-    
-    }
-    
-    .koko-artist{
-    
-        background-image:url("images/koko.jpg");
-        background-size: cover;
-        height: 200vh;
-    
-        position: relative;
-    
-    }
-    
-    .shitaqua-artist{
-    
-    
-        background-image:url("images/shitaqua.jpg");
-        background-size: cover;
-        height: 200vh;
-    
-        position: relative;
-    
-    }
-    
-    .fadhille img{
-        width: 80px;
-        gap: 0.1cm;
-        margin-top: 100%;
-        
-    }
-    
-    
-    .koko img {
-        width: 80px;
-        margin-top: 100%;
-    }
-    
-    .shitaqua img {
-        width: 80px;
-        margin-bottom:100%;
-        margin-top: 100%;
-    }
-    
-    body{
-        margin: 0;
-        overflow-y: hidden;
-    }
-    
-    #artist-fadhile{
-        text-decoration: none;
-        color:black;
-        font-size: 15px;
-        margin-top: 1%;
-        margin-left: 40%;
-        
-    }
-    
-    #artist-koko{
-        text-decoration: none;
-        color:black;
-        font-size: 15px;
-        margin-top: 1%;
-        margin-left: 40%;
-    }
-    
-    #artist-shitaq{
-        text-decoration: none;
-        color:black;
-        font-size: 15px;
-        margin-top: 1%;
-        margin-left: 40%;
-        /* margin-bottom: 10; */
-    
-    }
-    
-    
-    
-    nav ul{
-        display: flex;
-        position: fixed;
-        gap: 1cm;
-        border: 1px solid black;
-        list-style: none;
-        background-color: black;
-        color: aliceblue;
-        width: 200px;
-        border-radius: 40px;
-        padding: 2%;
-        justify-content: center;
-        margin-top: 5cm;
-        margin-left: 20%;
-        margin-bottom: 30%;
-        
-    }
-    
-    nav a{
-    list-style: none;
-    text-decoration: none;
-    color: aliceblue;
-    margin-top: 10cm;
-    }
     .navigationbar{
-        margin-top: -5cm;
-        margin-left: 5%;
-        padding: 2px;
-        margin-bottom:30% ;
-        padding: 15%;
-        width: 100%;
-        font-size: 5px;
-       
-    }
     
+        top: 85%;
+        left: -2%;
+        padding: 0.5%;
+       width: 95%;
+       font-size: 0.7em;
+     
+     }
+ 
+ 
+ 
+   .navbar{
+     gap: 1%;
+   
+   }
+
+
+.live-events{
+    background-image:url(images/african.jpg);
+    display: flex;
+    justify-content: center;
+    height: 110vh;
+    background-size: cover;
+
+    width: 115vw;
+}
+
+
+
+.fadhille img{
+    width: 100px;
+    gap: 1cm;
+    margin-left: -10px;
+    top: 10cm;
+
+}
+
+
+.koko img {
+    width: 100px;
+    margin-left: -5px;
+
+}
+
+.shitaqua img {
+    width: 100px;
+    margin-left: -10px;
+
+}
+
+
+h1{
+    font-size: 100px;
+    left: -40px;
+}
+h2{
+    font-size: 50px;
+    right: -40px;
+    color: black;
+}
+
+
+
+#artist-fadhile{
+    text-decoration: none;
+    color:black;
+    font-size: 8px;
+    margin-top: 25%;
+    margin-left: -78%;
+    
+}
+
+#artist-koko{
+    text-decoration: none;
+    color:black;
+    font-size: 8px;
+    margin-top: 25%;
+    margin-left: -83%;
+}
+
+#artist-shitaq{
+    text-decoration: none;
+    color:black;
+    font-size: 8px;
+    margin-top: 25%;
+    margin-left: -78%;
+
+}
+
+
+
+#ankolelogo{
+
+    width: 3cm;
+    margin-bottom: 20%;
+    margin-top: 12%;
+left: -30px;
+}
+
+p{
+  right: -10px;
+}
+
+}
+
+
+
+
+@media screen and (max-width: 900px) and (min-width: 600px){
 
 
 
 
 
+    .navigationbar{
+    
+        top: 85%;
+        left: 6%;
+        padding: 0.5%;
+       width: 60%;
+       font-size: 0.7em;
+     
+     }
+ 
+ 
+ 
+   .navbar{
+     gap: 1%;
+   
+   }
 
 
 
+.fadhille img{
+    width: 150px;
+    gap: 1cm;
+    margin-left: -10px;
+    top: 10cm;
+
+}
 
 
+.koko img {
+    width: 150px;
+    margin-left: -5px;
+
+}
+
+.shitaqua img {
+    width: 150px;
+    margin-left: -10px;
+
+}
+
+
+
+h2{
+    font-size: 50px;
+    right: -40px;
+    color: black;
+}
 
 }

@@ -48,203 +48,194 @@
   .logo{
     display: block;
     justify-content: center;
+    margin-left: 45%;
+   
+    margin-top: 15px;
+
     
 }
 
-.nav-bottom{
-    width: 50%;
-    position: absolute;
-    bottom: 0;
-    background-color: black;
-    overflow: hidden;
-    text-align: center;
-    margin-left: 30%;
-    margin-bottom: 30px;
-    border-radius: 30px; 
-    padding-top: 30px;   
-}
-.nav-bottom a{
-    float: left;
-    display: block;
-    color: white;
-    text-align: center;
-    text-decoration: none;
-    padding:10px 14px 10px ;
-}
 .reviewpage{
-    background-color: rgb(19, 18, 18);
+    
     width: 100vw;
     position: fixed;
     height: 70vw;
 
 }
+.buttons{
+
+
+ gap: 3cm;
+}
+
+
+#forward{
+  margin-left: 70%;
+}
+.prev{
+  margin-left: 30px;
+  color: aliceblue;
+}
+
+.next{
+  margin-right: 10%;
+  color: aliceblue;
+}
+
+
+
+
+#whatssapIcon{
+  margin-left: 300%;
+  top: -40%;
+}
+
+.socialIcons{
+  position:absolute;
+  /* right: -130%; */
+  bottom: 30%;
+  left: 300%;
+  display: flex;
+  gap:50%;
+
+  }
+
+
+
+#instaIcon{
+  font-size: 20px;
+  filter: brightness(60%);
+  
+
+}
+
+.insta{
+  border: solid 1px white;
+  width: 100%;
+  padding: 20%;
+  border-radius: 3em;
+  filter: brightness(60%);
+}
+
+.facebook{
+  border: solid 1px white;
+  width: 100%;
+  padding: 20%;
+  border-radius: 2em;
+  filter: brightness(60%);
+ justify-content: center;
+}
+
+
+
+
+.navbar{
+  position: relative;
+   
+   top: 765px;
+   /* bottom: -400px; */
+   left: 95%;
+   padding: 0.7%;
+  background-color: black;
+  margin-left: 0px;
+  padding-left: 0px;
+  width: 40%;
+  border-radius: 3em;
+  font-size: 1.3em;
+
+}
+.navbarItems{
+  list-style: none;
+  display: flex;
+  gap: 3%;
+
+}
+
+.navbar a{
+  text-decoration: none;
+  color: white;
+}
+
+.popup{
+  display: none;
+  position: absolute;
+  bottom: 90px;
+  top: auto;
+  left: 20px;
+  background-color: white;
+  color: black;
+  padding: 10px;
+  border-radius: 10px;
+  width: 250px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  z-index: 999;
+  font-size: 0.9em;
+}
+
+.clockIcon:hover .popup{
+  display: block;
+}
+
+.hamburger{
+  position: relative;
+}
+.menuWrapper{
+  position: relative;
+  display: inline-block;
+  background-color: transparent;
+}
+.menuIcon{
+  color: white;
+  cursor: pointer;
+  text-decoration: none;
+  padding: 10px;
+}
+ .mobileMenu{
+  display: none;
+  position: absolute;
+  bottom: 100%;
+  left: -20px;
+  background-color: black;
+  padding: 15px;
+  border-radius: 10px;
+  z-index: 1000;
+  width: 250px;
+ }
+
+ .menuWrapper:hover .mobileMenu{
+  display: block;
+ }
+
+ .mobileMenu a{
+  color: white;
+  text-decoration: none;
+  display: block;
+  padding: 10px 0px;
+
+ }
+
+ .mobileMenu hr{
+  border: 0;
+  border-top: 1px solid #555;
+  margin: 0;
+ }
+ #reservationsLink{
+  background-color: grey;
+  padding: 5%;
+  border-radius: 1em;
+  text-align: center;
+  width: 100%;       
+
+}
+.navbar a:hover{
+  color: orange;
+}
+
+
 body{
-    /* margin: 0%; */
+  background-color:black ;
 }
-
-
-nav ul{
-    display: flex;
-    position: fixed;
-    gap: 1cm;
-    border: 1px solid black;
-    list-style: none;
-    background-color: black;
-    color: aliceblue;
-    width: 48%;
-    border-radius: 40px;
-    padding: 2%;
-    justify-content: center;
-    margin-top: 25cm;
-    margin-left: 20%;
-    
-}
-
-nav a{
-list-style: none;
-text-decoration: none;
-color: aliceblue;
-margin-top: 10%;
-}
-.navigationbar{
-    margin-top: -5cm;
-    margin-left: 30%;
-    padding: 2px;
-    margin-bottom:30% ;
-    padding: 10%;
-    
-}
-
-
-
 @media only screen and (max-width:600px){
-
-
-
-  .review {
-    display: none; 
-    padding: 45px;
-    padding-top: 10%;
-    
-    
-  }
-  .review:first-child {
-    display: block; 
-  }
-  body{
-    margin: 0%;
-    margin-bottom: -10%;
-    position: absolute;
-    padding-bottom: 0%;
-
-  }
-  .review{
-    h1{
-        justify-content: center;
-        display: block;
-        text-align: center;
-        color: white;
-        font-family: Arial, Helvetica, sans-serif;
-    }
-    p{
-        justify-content: center;
-        display: block;
-        text-align: center;
-        color: white;
-        font-family: Arial, Helvetica, sans-serif;
-    }
-    
-  }
-  #previous{
-    padding-left: 350px;
-    color: orangered;
-  }
-  #forward{
-   display: block;
-   justify-content: right;
-    color: orangered;
-    padding-right: 350px;
-  }
-  .logo{
-    display: block;
-    justify-content: center;
-    width: 10%;
-    
-}
-
-.nav-bottom{
-    width: 50%;
-    position: absolute;
-    bottom: 0;
-    background-color: black;
-    overflow: hidden;
-    text-align: center;
-    margin-left: 30%;
-    margin-bottom: 30px;
-    border-radius: 30px; 
-    padding-top: 30px;  
-    margin-top: 10px; 
-}
-.nav-bottom a{
-    float: left;
-    display: block;
-    color: white;
-    text-align: center;
-    text-decoration: none;
-    padding:10px 14px 10px ;
-}
-.reviewpage{
-    background-color: rgb(19, 18, 18);
-    width: 100vw;
-    position: fixed;
-    height: 100vh;
-
-}
-
-nav ul{
-    display: flex;
-    position: fixed;
-    gap: 0.1cm;
-    border: 1px solid black;
-    list-style: none;
-    background-color: black;
-    color: aliceblue;
-    width: 48%;
-    border-radius: 40px;
-    padding: 2%;
-    justify-content: center;
-    margin-top: 25cm;
-    margin-left: 20%;
-    padding-left: 18%;
-    padding-right: 19%;
-    margin-right: 30px;
-    
-}
-
-nav a{
-list-style: none;
-text-decoration: none;
-color: aliceblue;
-margin-top: 10%;
-}
-.navigationbar{
-    margin-top: -5cm;
-    margin-left: 30%;
-    padding: 2px;
-    margin-bottom:30% ;
-    padding: 10%;
-    
-}
-
-
-
-
-
-
-
-
-
-
 
 
 

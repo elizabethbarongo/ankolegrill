@@ -62,157 +62,276 @@ body{
 
 
 
-nav ul{
-    display: flex;
-    position: fixed;
-    gap: 1cm;
-    border: 1px solid black;
-    list-style: none;
-    background-color: black;
-    color: aliceblue;
-    width: 48%;
-    border-radius: 40px;
-    padding: 2%;
-    justify-content: center;
-    margin-top: -3cm;
-    margin-left: -10cm;
-    
-}
 
-nav a{
-list-style: none;
-text-decoration: none;
-color: aliceblue;
-margin-top: 10%;
-}
 .navigationbar{
-    margin-top: -5cm;
-    margin-left: 30%;
-    padding: 2px;
-    margin-bottom:30% ;
-    padding: 10%;
+    position: absolute;
+     top: 85%;
+     left: 27%;
+     padding: 0.7%;
+    background-color: black;
+    margin-left: 0px;
+    padding-left: 0px;
+    width: 37%;
+    border-radius: 3em;
+    font-size: 1.2em;
+    box-shadow: 0 4px 8px 0 rgba(31, 30, 30, 0.2), 0 6px 20px 0 rgba(36, 35, 35, 0.19);
+    overflow: visible;
+   
     
-}
+
+  
+  }
+  .navbar{
+    list-style: none;
+    display: flex;
+    gap: 3%;
+    color:#fff;
+  }
+  
+  .navigationbar a{
+    text-decoration: none;
+    color: white;
+  }
+  .navigationbar a:hover{
+    color: orange;
+  }
+
+  .popup{
+    display: none;
+    position: absolute;
+    bottom: 90px;
+    top: auto;
+    left: 20px;
+    background-color: white;
+    color: black;
+    padding: 10px;
+    border-radius: 10px;
+    width: 250px;
+    box-shadow: 0 4px 8px rgba(0,0,0,.2);
+    z-index: 999;
+    font-size: 0.9em;
+  }
+  
+  .clockIcon:hover .popup{
+    display: block;
+  }
+
+  .food{
+    position: relative;
+  }
+  .menu{
+    position: relative;
+    display: inline-block;
+    background-color: transparent;
+  }
+  .menuIcon{
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+    padding: 10px;
+  }
+   .clickMenu{
+    display: none;
+    position: absolute;
+    bottom: 100%;
+    left: -20px;
+    background-color: black;
+    padding: 15px;
+    border-radius: 10px;
+    z-index: 1000;
+    width: 250px;
+   }
+
+   .menu:hover .clickMenu{
+    display: block;
+   }
+
+   .clickMenu a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 10px 0px;
+
+   }
+
+   .clickMenu hr{
+    border: 0;
+    border-top: 1px solid #555;
+    margin: 0;
+   }
+   #reservationsLink{
+    background-color: grey;
+    padding: 5%;
+    border-radius: 1em;
+    text-align: center;
+    width: 100%; 
+    margin-top: -5%;      
+
+  }
+
+
+#whatssapIcon{
+    position: absolute;
+    font-size: 30px;
+    top: 85%;
+    left: 93%;
+    
+    background-color: black;
+    border: white 1px solid;
+    border-radius: 2em;
+    padding: 1%;
+    }
+  
+ 
+.socialIcons{
+    position:absolute;
+    left: 93%;
+    bottom: 95%;
+    display: flex;
+    gap:50%;
+  
+    }
+  
+
+
+  #instagramIcon{
+    font-size: 20px;
+    filter: brightness(60%);
+    
+  
+  }
+
+  .instagram{
+    border: solid 1px white;
+    width: 100%;
+    padding: 20%;
+    border-radius: 3em;
+    filter: brightness(60%);
+  }
+  
+  .facebook{
+    border: solid 1px white;
+    width: 100%;
+    padding: 20%;
+    border-radius: 2em;
+    filter: brightness(60%);
+   justify-content: center;
+  }
+
 
 
 
 @media only screen and (max-width:600px) {
 
 
-    .reservation{
-        display: block;
-        background-color: black;
-        color: aliceblue;
-        height: 100vh;
-        margin-top: 40px;
+
+  .navigationbar{
     
-    
-    }
-    
-    #opentext_img{
-        width: 40%;
-        height: 100vh;
-    }
-    
-    
-    p{
-    
-        margin-top: -80%;
-        text-align: center;
-        color: white;
-       margin-right: 60%;
-    }
-    
-    h1{
-        text-align: center;
-        color: orangered;
-        margin-right: 60%;
-    }
-    
-    .reservation-form{
-        display: flex;
-        border: solid 1px;
-        color: white;
-        border-radius: 40px;
-        padding: 10px;
-        margin-left: 50%;
-        width: 5%;
-        height: 66%;
-        color: white;
-        margin-right: 0px;
-        position: absolute;
-       margin-top: -160%;
-        padding-right: 40%;
-    }
-    body{
-        overflow-x: hidden;
-    }
-    #input{
-    
-        width: 4cm;
-        height: 1.3cm;
-        background-color: black;
-        margin-right: 100%;
-        color: white;
-      
-        
-    }
-    .submission{
-        width: 6cm;
-        height:  1.3cm;
-        margin-right: 25%;
-        margin-left: -20%;
-        border-radius: 10px;
-    }
-    
-    body{
-        margin: 0;
-    }
-    
-    
-    
-    nav ul{
-        display: flex;
-        gap: 0.1cm;
-        border: 1px solid black;
-        list-style: none;
-        background-color: black;
-        color: aliceblue;
-        width: 48%;
-        border-radius: 40px;
-        padding: 2%;
-        position: absolute;
-        margin-top: 1cm;
-        margin-left: -10cm;
-        padding-right: 24%;
-       padding-left: 25%;
-        margin-left: -39%;
-        
-    }
-    
-    nav a{
-    list-style: none;
-    text-decoration: none;
-    color: aliceblue;
-    margin-top: 10%;
-    }
-    .navigationbar{
-        margin-top: -5cm;
-        margin-left: 30%;
-        padding: 2px;
-        margin-bottom:30% ;
-        padding: 10%;
-        
-    }
-    
+    top: 80%;
+    left: 20%;
+    padding: 0.5%;
+   width: 95%;
+   font-size: 0.7em;
+ 
+ }
+
+
+
+.navbar{
+ gap: 1%;
+
+}
+.reservation{
+  flex-direction: column;
+}
+
+.reservation-form{
+  display: flex;
+  border: solid 0.9px;
+  color:black;
+  border-radius: 40px;
+  padding: 19px;
+  margin-left: 30px;
+  width: 120%;
+  height: 80%;
+  margin-top: 220px;
+  color: black;
+  margin-right: 8px;
+  
+}
+
+
+
+#input{
+
+  width: 10cm;
+  height: 1.3cm;
+  background-color: black;
+  margin-right: 10%;
+  color: white;
+}
+.submission{
+  width: 10cm;
+  height:  1.3cm;
+  margin-right: 10%;
+}
+
+}
 
 
 
 
+@media screen and (max-width: 900px) and (min-width: 600px){
+
+
+  
+  .navigationbar{
+    
+    top: 80%;
+    left: 20%;
+    padding: 0.5%;
+   width: 70%;
+   font-size: 0.7em;
+ 
+ }
 
 
 
+.navbar{
+ gap: 1%;
+
+}
 
 
 
+.reservation-form{
+  display: flex;
+  border: solid 0.9px;
+  color:black;
+  border-radius: 40px;
+  padding: 19px;
+  margin-left: 30px;
+  width: 80%;
+  height: 80%;
+  margin-top: 400px;
+  color: black;
+  margin-right: 8px;
+  
+}
+
+
+
+#input{
+
+  width: 10cm;
+  height: 1.3cm;
+  background-color: black;
+  margin-right: 10%;
+  color: white;
+}
+.submission{
+  width: 10cm;
+  height:  1.3cm;
+  margin-right: 10%;
+}
 }

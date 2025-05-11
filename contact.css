@@ -30,7 +30,7 @@ body{
     font-weight: 700;
     margin-top: 19.5rem;
     margin-bottom: 100px;
-    margin-left: -10%;
+    margin-left: -73%;
     
     
 
@@ -43,7 +43,7 @@ h1{
 
 
 .Kilimani{
-    /* border:1px solid white; */
+  
     border: solid 1px white;
     width:10cm ;
     height: 10cm;
@@ -57,7 +57,7 @@ h1{
 
 }
 #text-color{
-    /* color: black; */
+   
     text-decoration: none;
     color: white;
 }
@@ -66,37 +66,163 @@ body{
 }
 
 
-nav ul{
-    display: flex;
-    position: fixed;
-    gap: 1cm;
-    border: 1px solid black;
-    list-style: none;
-    background-color: black;
-    color: aliceblue;
-    width: 48%;
-    border-radius: 40px;
-    padding: 2%;
-    justify-content: center;
-    margin-top: 22cm;
-    margin-left: -17cm;
-    
-}
 
-nav a{
-list-style: none;
-text-decoration: none;
-color: aliceblue;
-margin-top: 10%;
-}
+
 .navigationbar{
-    margin-top: -5cm;
-    margin-left: 30%;
-    padding: 2px;
-    margin-bottom:30% ;
-    padding: 10%;
+    position: absolute;
+     top: 85%;
+     left: 27%;
+     padding: 0.7%;
+    background-color: black;
+    margin-left: 0px;
+    padding-left: 0px;
+    width: 37%;
+    border-radius: 3em;
+    font-size: 1.2em;
+    box-shadow: 0 4px 8px 0 rgba(31, 30, 30, 0.2), 0 6px 20px 0 rgba(36, 35, 35, 0.19);
+    overflow: visible;
+   
     
-}
+
+  
+  }
+  .navbar{
+    list-style: none;
+    display: flex;
+    gap: 3%;
+    color:#fff;
+  }
+  
+  .navigationbar a{
+    text-decoration: none;
+    color: white;
+  }
+  .navigationbar a:hover{
+    color: orange;
+  }
+
+  .popup{
+    display: none;
+    position: absolute;
+    bottom: 90px;
+    top: auto;
+    left: 20px;
+    background-color: white;
+    color: black;
+    padding: 10px;
+    border-radius: 10px;
+    width: 250px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    z-index: 999;
+    font-size: 0.9em;
+  }
+  
+  .clockIcon:hover .popup{
+    display: block;
+  }
+
+  .food{
+    position: relative;
+  }
+  .menu{
+    position: relative;
+    display: inline-block;
+    background-color: transparent;
+  }
+  .menuIcon{
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+    padding: 10px;
+  }
+   .clickMenu{
+    display: none;
+    position: absolute;
+    bottom: 100%;
+    left: -20px;
+    background-color: black;
+    padding: 15px;
+    border-radius: 10px;
+    z-index: 1000;
+    width: 250px;
+   }
+
+   .menu:hover .clickMenu{
+    display: block;
+   }
+
+   .clickMenu a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 10px 0px;
+
+   }
+
+   .clickMenu hr{
+    border: 0;
+    border-top: 1px solid #555;
+    margin: 0;
+   }
+   #reservationsLink{
+    background-color: grey;
+    padding: 5%;
+    border-radius: 1em;
+    text-align: center;
+    width: 100%; 
+    margin-top: -5%;      
+
+  }
+
+
+#whatssapIcon{
+    position: absolute;
+    font-size: 30px;
+    top: 85%;
+    left: 93%;
+    
+    background-color: black;
+    border: white 1px solid;
+    border-radius: 2em;
+    padding: 1%;
+    }
+  
+ 
+.socialIcons{
+    position:absolute;
+    left: 93%;
+    bottom: 95%;
+    display: flex;
+    gap:50%;
+  
+    }
+  
+
+
+  #instagramIcon{
+    font-size: 20px;
+    filter: brightness(80%);
+    
+  
+  }
+
+  .instagram{
+    border: solid 1px white;
+    width: 100%;
+    padding: 20%;
+    border-radius: 3em;
+    filter: brightness(60%);
+  }
+  
+  .facebook{
+    border: solid 1px white;
+    width: 100%;
+    padding: 20%;
+    border-radius: 2em;
+    filter: brightness(100%);
+   justify-content: center;
+  }
+
 
 
 
@@ -106,115 +232,125 @@ margin-top: 10%;
 @media only screen and (max-width:600px){
 
 
-    .contact-section{
-
-        background-image: url(images/contacts.jpg);
-        height: 100vh;
-        display: block;
-        gap: 1cm;
-        justify-content: center;
-        font-size: 20px;
-        overflow-x: hidden;
-        overflow-y: hidden;
-    }
+  .Kilimani{
+  
+    border: solid 1px white;
+    width:3cm ;
+    height: 7.5cm;
+    margin-top: 17%;
+    margin-right: -80%;
     
-    p{
-        color: white;
-        font-size: 15px;
-    }
-    
-    body{
-        overflow-x: hidden;
-    }
-    
-    .Kitisuru{
-      
-        border: solid 1px white;
-        width:6cm ;
-        height: 7.5cm;
-        padding-left: 1cm;
-        font-size: 20px;
-        font-weight: 30;
-        margin-top: 1rem;
-        margin-bottom: 100px;
-        margin-left: 10%;
-        margin-right: -60%;
-        gap: 0.3cm;
-        
-        
-    
-    
-    }
-    
-    h1{
-        color:white;
-    }
-    
-    
-    .Kilimani{
-       
-        border: solid 1px white;
-        width:6cm ;
-        height: 9.9cm;
-        padding-left: 1cm;
-        font-size: 20px;
-        font-weight: 30;
-        margin-top: 5rem;
-        margin-bottom: 100px;
-        margin-left: 10%;
-        margin-right: -60%;
-        gap: 0.3cm;
-        
-    
-    
-    }
-    #text-color{
-        text-decoration: none;
-        color: white;
-    }
-    body{
-        margin: 0;
-    }
-    
-    
-    nav ul{
-        display: flex;
-        gap: 1cm;
-        border: 1px solid yellow;
-        list-style: none;
-        background-color:yellowgreen;
-        color: aliceblue;
-        width: 48%;
-        border-radius: 40px;
-        padding: 2%;
-        justify-content: center;
-        margin-top: 10cm;
-        margin-left: 20%;
-        margin-right: -40%;
-        
-    }
-    
-    nav a{
-    list-style: none;
-    text-decoration: none;
-    color: aliceblue;
-    margin-top: 5%;
-    }
-    .navigationbar{
-        margin-top: -5cm;
-        margin-left: -5%;
-        padding: 2px;
-        margin-bottom:30% ;
-        padding: 10%;
-        
-    }
-    
-    
-    
-    
-   
-
-
 
 
 }
+
+.Kitisuru{
+  
+  border: solid 0.03px white;
+  width:3cm ;
+  height: 6cm;
+  font-size: 3px;
+
+}
+
+p{
+  font-size: 8px;
+}
+
+
+h1{
+  font-size: 10px;
+}
+
+
+
+.navigationbar{
+    
+  top: 85%;
+  left: -2%;
+  padding: 0.5%;
+ width: 95%;
+ font-size: 0.7em;
+
+}
+
+
+
+.navbar{
+gap: 1%;
+
+}
+
+
+}
+
+
+
+
+
+@media screen and (max-width: 900px) and (min-width: 600px){
+
+
+
+
+
+.navigationbar{
+    
+  top: 85%;
+  left: 20%;
+  padding: 0.5%;
+ width: 53%;
+ font-size: 0.7em;
+
+}
+
+
+
+.navbar{
+gap: 1%;
+
+}
+
+
+
+h1{
+  font-size: 30px;
+}
+
+
+
+
+.Kilimani{
+  
+  border: solid 0.03px white;
+  width:5cm ;
+  height: 10cm;
+  padding-left: 1cm;
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 17%;
+  margin-right: -60%;
+  
+
+
+}
+
+.Kitisuru{
+  
+  border: solid 0.03px white;
+  width:5cm ;
+  height: 9cm;
+  padding-left: 1cm;
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 19.5rem;
+  margin-bottom: 100px;
+  margin-left: -73%;
+  
+  
+
+
+}
+}
+
+
